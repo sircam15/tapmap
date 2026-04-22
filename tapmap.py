@@ -734,8 +734,8 @@ class TapMap:
         self._open_browser(url)
 
         self.app.run(
-            host='192.168.0.234',
-            port='8050',
+            host=192.168.0.234,
+            port=8050,
             debug=self.DASH_DEBUG,
             use_reloader=False,
         )
